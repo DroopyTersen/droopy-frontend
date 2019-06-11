@@ -1,5 +1,7 @@
 # Droopy Frontend
 
+The goal is to go **zero to public single page app in less than 60 seconds**
+
 This project uses my current favorites...
 
 - TypeScript
@@ -9,11 +11,13 @@ This project uses my current favorites...
 - Netlify Hosting
 - Emotion CSS-in-JS
 
+![Demo Usage](https://res.cloudinary.com/droopytersen/image/upload/v1560227965/docs/droopy-frontend.gif)
+
 ## Usage Instructions
 
 Create a file, `createApp.ps1` in your code directory and run it everytime you start a project.
 
-When its all done, you should have a new app hosted publically on Netlify! **Zero to public website in less than 60 seconds!**
+When its all done, you should have a new app hosted publically on Netlify!
 
 _createApp.ps1_
 
