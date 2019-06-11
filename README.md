@@ -15,6 +15,8 @@ Create a file, `createApp.ps1` in your code directory and run it everytime you s
 
 When its all done, you should have a new app hosted publically on Netlify! **Zero to public website in less than 60 seconds!**
 
+_createApp.ps1_
+
 ```powershell
 $appName = Read-Host "What is your app name (all lower no spaces)?"
 git clone https://github.com/DroopyTersen/droopy-frontend $appName
