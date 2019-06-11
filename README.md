@@ -8,23 +8,14 @@ This project uses...
 - Parcel
 - Netlify Hosting
 
-## Setup
+## Usage Instructions
 
-### Install & Setup Global Tools
+1. Clone the repo, adding your app name to the end
 
-```sh
-npm install -g rimraf netlify-cli
+```
+git clone https://github.com/droopytersen/droopy-frontend MY_NEW_APP
 ```
 
-Then log into netlify
-
-```sh
-netlify login
-```
-
-### Get the code
-
-1. Clone the repo
 2. Navgigate into the new folder
 3. Delete all my GIT stuff and start over with your own GIT repo
 4. Install dependencies
