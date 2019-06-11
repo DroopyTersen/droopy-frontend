@@ -1,0 +1,46 @@
+{
+  "name": "droopy-frontend",
+  "version": "1.0.0",
+  "description": "React/TypeScript/Parcel Single Page App Starter",
+  "main": "index.html",
+  "scripts": {
+    "prebuild": "npm run clean && node tasks/build.js",
+    "build": "parcel build index.html --detailed-report",
+    "prestart": "node tasks/build.js",
+    "start": "parcel index.html --open",
+    "predeploy": "npm run build",
+    "deploy": "netlify deploy --prod --dir=dist",
+    "clean": "rimraf .cache && rimraf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/droopytersen/droopy-frontend.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Andrew Petersen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/droopytersen/droopy-frontend/issues"
+  },
+  "homepage": "https://github.com/droopytersen/droopy-frontend#readme",
+  "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.12",
+    "@reach/router": "^1.2.1",
+    "date-fns": "^1.30.1",
+    "emotion-theming": "^10.0.10",
+    "fs-extra": "^8.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.19",
+    "@types/react-dom": "^16.8.4",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-bundle-visualiser": "^1.2.0",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.5.1"
+  }
+}

@@ -1,0 +1,1 @@
+Any files in the /static folder will be copied to /dist on build
