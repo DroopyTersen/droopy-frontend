@@ -5,9 +5,9 @@
   "main": "index.html",
   "scripts": {
     "prebuild": "npm run clean && node tasks/build.js",
-    "build": "parcel build index.html --detailed-report",
+    "build": "parcel build src/index.html --detailed-report",
     "prestart": "node tasks/build.js",
-    "start": "parcel index.html --open",
+    "start": "parcel src/index.html --open",
     "predeploy": "npm run build",
     "deploy": "netlify deploy --prod --dir=dist",
     "clean": "rimraf .cache && rimraf dist"

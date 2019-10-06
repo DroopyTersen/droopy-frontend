@@ -46,6 +46,7 @@ Manually you could do the same things with these steps
 
 1. Update `package.json` (name, description, etc...)
 2. Update the page title in `index.html`
+3. Update app title in `manifest.webmanifest`
 
 ### Developing
 
