@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/images/icons/icons-72x72.png" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Droopy Front End</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- <link rel="stylesheet" href="entry.css" /> -->
+</head>
+
+<body>
+  <div id="root"></div>
+  <script src="/app.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("/sw.js");
+      });
+    }
+  </script>
+</body>
+
+</html>

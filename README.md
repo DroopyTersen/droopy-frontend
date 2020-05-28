@@ -6,47 +6,19 @@ This project uses my current favorites...
 
 - TypeScript
 - React
-- @reach/router
-- Parcel
+- React Router 6 (alpha)
+- Webpack
 - Netlify Hosting
-- Emotion CSS-in-JS
 
-![Demo Usage](https://res.cloudinary.com/droopytersen/image/upload/v1560227965/docs/droopy-frontend.gif)
+## Setup
 
-## Usage Instructions
-
-Create a file, `createApp.ps1` in your code directory and run it everytime you start a project.
-
-When its all done, you should have a new app hosted publically on Netlify!
-
-_createApp.ps1_
-
-```powershell
-$appName = Read-Host "What is your app name (all lower no spaces)?"
-git clone https://github.com/DroopyTersen/droopy-frontend $appName
-cd $appName
-Remove-Item -Force -Recurse .git
-git init
-git add -A
-git commit -m "cloned from droopy-frontend"
-code .
-npm install
-npm run deploy
-```
-
-Manually you could do the same things with these steps
-
-1. Clone the repo, adding your app name to the end
-2. Navgigate into the new folder
-3. Delete all my GIT stuff and start over with your own GIT repo
-4. Install dependencies
-5. `npm run deploy`
-
-### Don't forget to
-
-1. Update `package.json` (name, description, etc...)
-2. Update the page title in `index.html`
-3. Update app title in `manifest.webmanifest`
+1. Create a Repo from the Template
+2. Update some of the files
+3. `npm install`
+4. Update the names
+   1. Update `package.json` (name, description, etc...)
+   2. Update the page title in `index.html`
+   3. Update app title in `manifest.webmanifest`
 
 ### Developing
 

@@ -1,8 +1,10 @@
 {
-  "name": "Droopy-Frontend",
-  "theme_color": "#2196f3",
-  "background_color": "#2196f3",
-  "display": "browser",
+  "name": "Droopy Frontend",
+  "short_name": "Droopy Frontend",
+  "theme_color": "#325c7c",
+  "background_color": "#fff",
+  "display": "standalone",
+  "orientation": "portrait",
   "Scope": "/",
   "start_url": "/",
   "icons": [
